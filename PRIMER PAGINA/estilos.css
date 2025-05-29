@@ -1,0 +1,60 @@
+/* Variables de color */
+:root {
+    --color-fondo: #0a2b2d;
+    --color-letras: white;
+    --color-hover: #ff5722;
+    --color-footer: #0a2b2d;
+    --tamanio-fuente: 16px;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    font-size: var(--tamanio-fuente);
+  }
+  
+  .menu {
+    background-color: var(--color-fondo);
+  }
+  
+  .menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  .menu li {
+    margin: 0 15px;
+  }
+  
+  .menu a {
+    color: var(--color-letras);
+    text-decoration: none;
+    padding: 10px;
+    transition: color 0.3s;
+  }
+  
+  /* Pseudo-clase */
+  .menu a:hover {
+    color: var(--color-hover);
+  }
+  
+  /* Imagen centrada */
+  .imagen-central {
+    display: block;
+    margin: 40px auto;
+    max-width: 80%;
+    height: auto;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: var(--color-footer);
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
